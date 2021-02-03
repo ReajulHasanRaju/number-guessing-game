@@ -1,0 +1,80 @@
+body {
+  text-align: center;
+  background-color: gray;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 120px;
+}
+
+#output {
+  background-color: gray;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: inline-flex;
+  margin: 0px 30px 10px 0px;
+}
+
+#headline {
+  background-color: #B9345A;
+  color: white;
+  font-size: large;
+  font-weight: bolder;
+  padding: 15px;
+}
+
+#left {
+  background-color: #333524;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border-radius: 50px 30px 30px 50px;
+}
+
+#input {
+  height: 20px;
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #feffff;
+}
+
+#btn {
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 7px;
+  color: white;
+  background-color:#3a8f4d;
+  font-weight: bold;
+}
+
+#btn2 {
+  margin-top: 5px;
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 7px;
+  color: white;
+  background-color:#DE430A;
+  font-weight: bold;
+}
+
+#footer {
+  font-size: smaller;
+  bottom: 1%;
+  right: 1%;
+  position: fixed;
+}
+
+#footer:hover {
+  font-size: bold;
+  color: black;
+  background-color: #FFC300;
+  padding: 10px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
